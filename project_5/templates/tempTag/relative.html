@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+
+{% extends "tempTag/base.html" %}
+
+{% block attachHere %}
+    <h1>WELCOME TO RELATIVE PAGE</h1>
+    <p><b>THIS IS RELATIVE PAGE</b></p><br>
+
+    <a href="{% url 'tempTag:other' %}">CLICK HERE FOR OTHER PAGE</a><br>
+{% endblock %}
